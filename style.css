@@ -1,0 +1,42 @@
+body{
+            background-color: black;
+            text-align: center;
+
+        }
+        #reading{
+            display: inline-block;
+            color: white;
+            font-size: 50px;
+            margin-top: 50px;
+            margin-left: 5px;
+            
+        }
+        button{
+            width: 100px;
+            margin-top: 50px;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+h1{
+    color: white;
+    margin-top: 100px;
+}
+      
+        img{
+            width: 200px;
+        }
+        @media only screen and (max-width:400px){
+            img{
+                width: 150px;
+        }
+        h1{
+            font-size: 25px;
+        }
+        #reading{
+            font-size: 30px;
+        }
+        button{
+            margin-top: 10px;
+        }
